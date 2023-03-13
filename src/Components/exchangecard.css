@@ -1,0 +1,38 @@
+.exchangeDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.exchangeDiv .exchange-cards {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgb(160, 157, 157);
+    transition: all 0.2s ease-in-out;
+}
+
+.exchangeDiv .exchange-cards:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width : 700px){
+    .exchangeDiv {
+        width: 100%;
+    }
+}

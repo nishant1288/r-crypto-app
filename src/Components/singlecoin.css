@@ -1,0 +1,17 @@
+.coinDiv {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+.coinDiv img{
+    width: 40%;
+}
+
+.coinDiv h3{
+    font-size: 2rem;
+}

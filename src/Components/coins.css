@@ -1,0 +1,67 @@
+.coins {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.coins .coinsDetail {
+box-shadow: 0px 5px 5px rgb(160, 157, 157);
+ width: 9rem;
+ margin-top: 5rem;
+ border-radius: 10px;
+ transition: all 0.2s ease-in-out;
+}
+
+.coins .coinsDetail .linked {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coins .coinsDetail:hover {
+    transform: scale(1.1);
+}
+
+.coins .coinsDetail img {
+    width: 80%;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 8rem;
+    width: 50%;
+    align-items: center;
+}
+
+.page-buttons button {
+    width: 30%;
+    border-radius: 10px;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+   
+}
+
+.page-buttons button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+
+.page-buttons span {
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width : 700px)
+{
+    .page-buttons {
+        width: 95%;
+    }
+}

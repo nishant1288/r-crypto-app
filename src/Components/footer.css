@@ -1,0 +1,74 @@
+.upper-footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.upper-footer h3 {
+    font-size: 2rem;
+    color: #FDBD01;
+}
+
+.upper-footer p {
+    font-weight: 600;
+}
+
+.upper-footer .icons-div {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.upper-footer .icons-div i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.upper-footer .icons-div .fa-facebook-f {
+    color: blue;
+}
+
+.upper-footer .icons-div .fa-instagram {
+    color: red;
+}
+
+.upper-footer .icons-div .fa-linkedin {
+    color: #0A66C2;
+}
+
+.nav-links ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+.nav-links ul li .link-items{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul li .link-items:hover {
+    color: #FDBD01;
+}
+
+@media only screen and (max-width : 700px)
+{
+
+    .upper-footer .icons-div {
+        width: 90%;
+    }
+
+    .nav-links ul {
+        width: 90%;
+    }
+}
